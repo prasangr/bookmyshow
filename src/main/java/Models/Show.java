@@ -9,7 +9,7 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
+@Entity(name="Shows") // show is a reserved keyword in mysql
 public class Show extends BaseModel {
     @ManyToOne
     private Movie movie;

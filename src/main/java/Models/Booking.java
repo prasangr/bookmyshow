@@ -12,7 +12,7 @@ import java.util.List;
 public class Booking extends BaseModel {// ticket
 
     @ManyToMany
-    private List<ShowSeatType> showSeats;
+    private List<ShowSeat> showSeats;
     @ManyToOne
     private User user;
     private double amount;

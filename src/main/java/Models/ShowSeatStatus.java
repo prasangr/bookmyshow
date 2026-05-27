@@ -3,5 +3,5 @@ package Models;
 public enum ShowSeatStatus {
 BOOKED,
     AVAILABLE,
-    BLOCKED; // basically for the users who are on payment
+    LOCKED; // basically for the users who are on payment
 }
